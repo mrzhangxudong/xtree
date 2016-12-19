@@ -1,0 +1,51 @@
+.z-tree-wrap{
+    position: relative;
+    font: 12px Verdana, helvetica, arial, sans-serif;
+    color: #333;
+}
+.z-tree-wrap li{
+    padding: 3px 0 2px 16px;
+    background: url("../images/xtree-default-line.gif") 0 0 no-repeat;
+}
+.z-tree-wrap li.last{
+    background-position: 0 -1766px;
+}
+.z-tree-wrap a{
+    display: block;
+    height: 16px;
+    padding: 1px 0 1px 16px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.z-tree-wrap a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+.z-tree-wrap a.minus, .z-tree-wrap a.plus{
+    display: inline;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: -16px;
+    padding: 0;
+    cursor: pointer;
+    background: url(../images/xtree-treeview-default.gif) -64px -25px no-repeat;
+}
+.z-tree-wrap a.plus{
+    background-position: -80px -3px;
+}
+.z-tree-wrap a.plus.last{
+    background-position: -32px -70px;
+}
+.z-tree-wrap a.minus.last{
+    background-position: 0 -114px;
+}
+.z-tree-wrap a.close{
+    background: url(../images/xtree-folder-closed.gif) 0 0 no-repeat;
+}
+.z-tree-wrap a.open{
+    background: url("../images/xtree-folder.gif") 0 0 no-repeat;
+}
+.z-tree-wrap a.file{
+    background: url("../images/xtree-file.gif") 0 0 no-repeat;
+}
